@@ -47,7 +47,7 @@ function time() {
 	let secs = ques9.getSeconds();
 	document.getElementsByClassName(
 		'timerClock'
-	)[0].innerHTML = `TIME - ${hrs} : ${mins} : ${secs}`;
+	)[0].innerHTML = `<h1>TIME - ${hrs} : ${mins} : ${secs}</h1>`;
 }
 setInterval(() => {
 	time();
