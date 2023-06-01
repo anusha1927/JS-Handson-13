@@ -52,3 +52,76 @@ a:visited {
 a:active {
 	color: coral;
 }
+.row1 {
+	margin: 20px;
+}
+.boxleft {
+	float: left;
+	background-color: white;
+	color: black;
+	padding: 20px;
+}
+.boxright {
+	float: right;
+}
+.row2 {
+	clear: both;
+	text-align: center;
+	padding: 20px;
+}
+.row3 {
+	background-color: white;
+	height: 15px;
+	position: relative;
+	top: 50px;
+}
+.boxcenter {
+	background-color: azure;
+	color: black;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 45%;
+	top: -60px;
+	border-radius: 2px;
+}
+.boxcenter > span {
+	position: absolute;
+	left: 40%;
+	top: 20%;
+	font-size: 500%;
+}
+.row4 {
+	margin: 150px;
+}
+.boxinput {
+	float: left;
+}
+#boxinput {
+	width: 200px;
+	height: 120px;
+	border: 5px solid white;
+	background-color: transparent;
+	color: white;
+	font-size: xx-large;
+	text-align: center;
+}
+.guessText {
+	float: right;
+	padding: 20px;
+	font-size: xx-large;
+}
+.row5 {
+	margin: 200px;
+}
+.boxcheck {
+	margin-top: 20px;
+	clear: both;
+	float: left;
+	background-color: white;
+	color: black;
+	padding: 20px;
+}
+.chancesText {
+	float: right;
+}
