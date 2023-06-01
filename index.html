@@ -72,7 +72,68 @@
 		<hr />
 		<div class="ques">
 			<h3>8. What’s the difference between window vs document?</h3>
-			<h1>Differences</h1>
+			<h1>Both are objects in JS DOM</h1>
+			<table>
+				<tr>
+					<th>WINDOW</th>
+					<th>DOCUMENT</th>
+				</tr>
+				<tr>
+					<td>
+						The "window" object represents the browser window or tab that
+						contains the web page.
+					</td>
+					<td>
+						The "document" object represents the HTML document loaded in the
+						window.
+					</td>
+				</tr>
+				<tr>
+					<td>
+						It provides methods and properties to control and interact with the
+						browser window.
+					</td>
+					<td>
+						It provides methods and properties to manipulate the content and
+						structure of the web page.
+					</td>
+				</tr>
+				<tr>
+					<td>
+						It includes features like opening or closing windows, navigating to
+						URLs, accessing the browser history, setting timeouts/intervals, and
+						handling events related to the window.
+					</td>
+					<td>
+						It allows access to different elements within the document, such as
+						HTML elements, CSS styles, and DOM events.
+					</td>
+				</tr>
+				<tr>
+					<td>
+						It serves as the global object in the browser's JavaScript
+						environment, meaning that global variables and functions are
+						attached to it.
+					</td>
+					<td>
+						It provides methods to query and modify elements, create new
+						elements, change styles, handle events, and more. It is a property
+						of the "window" object, accessible as window.document or simply
+						document.
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Examples of properties/methods: window.location, window.open(),
+						window.alert(), window.setTimeout().
+					</td>
+					<td>
+						Examples of properties/methods: document.getElementById(),
+						document.querySelector(), document.createElement(),
+						document.addEventListener().
+					</td>
+				</tr>
+			</table>
 		</div>
 		<hr />
 		<div class="ques">

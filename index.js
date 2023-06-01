@@ -39,6 +39,10 @@ document.getElementsByTagName('button')[1].addEventListener('click', () => {
 	ques7.style.flexDirection = 'column';
 });
 
+//ques8
+document.getElementsByTagName('th')[0].style.color = 'crimson';
+document.getElementsByTagName('th')[1].style.color = 'crimson';
+
 //ques9
 function time() {
 	let ques9 = new Date();

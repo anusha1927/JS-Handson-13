@@ -29,6 +29,19 @@ body > h1 {
 	height: 100px;
 	background-color: brown;
 }
+table {
+	border: 3px groove greenyellow;
+	border-collapse: collapse;
+	width: 60%;
+	margin: auto;
+	background-color: antiquewhite;
+}
+td,
+th {
+	border: 1px solid goldenrod;
+	padding: 10px;
+	width: 50%;
+}
 a:link {
 	color: darkred;
 	text-decoration: none;
