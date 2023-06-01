@@ -29,3 +29,13 @@ body > h1 {
 	height: 100px;
 	background-color: brown;
 }
+a:link {
+	color: darkred;
+	text-decoration: none;
+}
+a:visited {
+	color: crimson;
+}
+a:active {
+	color: coral;
+}
