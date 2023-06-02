@@ -78,7 +78,24 @@ ques9[0].addEventListener('click', () => {
 		let hrs = time.getHours();
 		let mins = time.getMinutes();
 		let secs = time.getSeconds();
-		ques9[0].innerHTML = `<h1>TIME - ${hrs} : ${mins} : ${secs}</h1>`;
+		var ampm = 'AM';
+		if (hrs === 24) {
+			ques9[0].innerHTML = `<h1>TIME - ${
+				hrs - 12
+			} : ${mins} : ${secs} ${ampm}</h1>`;
+		} else if (hrs > 12) {
+			ampm = 'PM';
+			//console.log(ampm);
+			ques9[0].innerHTML = `<h1>TIME - ${
+				hrs - 12
+			} : ${mins} : ${secs} ${ampm}</h1>`;
+		} else if (hrs === 12) {
+			//console.log(ampm);
+			ampm = 'PM';
+			ques9[0].innerHTML = `<h1>TIME - ${hrs} : ${mins} : ${secs} ${ampm}</h1>`;
+		} else {
+			ques9[0].innerHTML = `<h1>TIME - ${hrs} : ${mins} : ${secs} ${ampm}</h1>`;
+		}
 	}
 	setInterval(() => {
 		startTime();

@@ -125,3 +125,6 @@ a:active {
 .chancesText {
 	float: right;
 }
+.boxVisibility {
+	visibility: hidden;
+}
